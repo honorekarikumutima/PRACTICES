@@ -1,14 +1,13 @@
-import React from 'react'
-import logo from './react.svg'
+/* eslint-disable no-unused-vars */
+import React from "react";
+import logo from "./react.svg";
 
 export default function Navbar() {
-    return (
-        <header  className='header'>
-            <nav className='nav-bar'>
-                <img src={logo} alt="Logo" className='logo'/>
-                <h3 className='fact'>ReactFacts</h3>
-                <h4>React Course - Project 1</h4>
-            </nav>
-        </header>
-    )
+  return (
+    <nav className="nav-bar">
+      <img src={logo} alt="Logo" className="nav--icon" />
+      <h3 className="nav--logo_text">ReactFacts</h3>
+      <h4 className="nav--title">React Course - Project 1</h4>
+    </nav>
+  );
 }
